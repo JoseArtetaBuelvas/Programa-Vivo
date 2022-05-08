@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background:#B4C5D7;
+}
+
+/* Contenido principal de la página*/
+
+main {
+	max-width: 850px;
+	width: 90%;
+	margin: auto;
+	padding: 100px;
+}
+/* Logo de Actorador*/
+
+.logo__actorador{
+    width: 75%;
+    height: 100px;
+    margin: 0 0 0 60px;
+    
+
+}
+
+/* Logo de Actorador*/
+
+
+
+.formulario{
+    border width: 5px;
+    background-color: #71AEEE;
+}
+
+.formulario__grupo{
+    padding: 30px 15px 30px 25px;
+}
+
+.formulario__label{
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Icono de validación*/
+
+.formulario__validacion-estado{
+    position: absolute;
+    left: 570px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0 ;
+}
+
+/* Botones del Formulario*/
+
+.boton__pagar{
+    width: auto;
+    border: 0;
+    background:;
+    font-size: 1.2em;
+    color: #FFF;
+
+}
+
+.boton__regresar{
+    display: inline;
+    font-size: 1.1em;
+    color: #FFF;
+}
+
+/* Inputs */
+
+.formulario__grupo-input{
+    position: relative;
+}
+
+.formulario__input{
+    width: 98%;
+    border-color: #CED6D7;
+    border: 1px solid ;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+
+}
+
+/* Subtitulo*/
+
+.subtitulo{
+    padding: 0 0 0 160px;
+    color: #FFF;
+    margin: 2px 0 20px 0;
+}
+
+
+/* color de fonde de los div blanco*/
+
+div {
+    background-color: #FFF;
+}
